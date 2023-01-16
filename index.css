@@ -3,22 +3,12 @@
     text-align: center;
     overflow: hidden;
 }
-.headind-holder{
-    padding:3%;
-}
 .heading{
-    color: #020212;
-    font-size:35px;
-  font-weight: 400;
+  
+    font-size:30px;
    
 }
-.heading-top{
-    font-weight: 600;
-    color: #020212;
-}
-.img-first{
-    padding-top: 4%;
-}
+
 .tabs ul {
     list-style: none;
     display: flex;
@@ -32,3 +22,25 @@
     padding: 4px 8px;
 }
 
+.body-content-collapse{
+    margin-top: 4%;
+}
+.Collapse-box{
+    border: 1px solid gainsboro;
+     padding:15px ; 
+    width:70%;
+    margin-left:18%;
+    margin-top: 2%;
+  text-align: center;
+  justify-content: center;
+   
+
+    
+}  
+
+.down-arrow img{
+    width:20px;
+   float: right;
+   
+    
+} 
