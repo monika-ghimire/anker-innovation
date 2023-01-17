@@ -1,63 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-   
- 
-  
-    <title>Anker innovation</title>
-  </head>
 
-  <body>
-    <div class="container-fuild">
-      <header class="header-content-wrapper">
-        <div class="flex flex-row ">
-          <div class=" img-first basis-1/4 pt-10">
-            <img src="./asste/first.png" />
-          </div>
-          <div class=" pt-12 basis-5/6   ">
-            <p class="heading-top">FAQs</p>
-            <p class="heading font-bold">Frequently Asked Questions</p>
-          </div>
-          <div class=" img-second basis-1/4">
-            <img src="./asste/second.png" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="index.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+
+
+  <title>Anker innovation</title>
+</head>
+
+<body>
+
+  <h1>is this colaps my code</h1>
+
+  <div class="container-fuild">
+
+    <div class="header-conter-titel">
+      <ul>
+        <li class=" img-first  pt-10">
+          <img src="./asste/first.png" />
+        </li>
+        <li class=" p-12  heading-faqs ">
+          <p class="heading-top">FAQs</p>
+          <p class="heading font-bold">Frequently Asked Questions</p>
+        </li>
+        <li class=" img-second ">
+          <img src="./asste/second.png" />
+        </li>
+      </ul>
+    </div>
+
+
+    
+
+    <body>
+      <section>
+        <div class="group-tabs">
+          <div class="tabs">
+            <ul>
+              <li class="active-tab">All Brands</li>
+              <li>Anker</li>
+              <li>Soundcore</li>
+              <li>eufy</li>
+              <li>AnkerWork</li>
+              <li>Nebula</li>
+              <li>AnkerMake</li>
+            </ul>
           </div>
         </div>
-      </header>
+      </section>
 
-      <body>
-        <section>
-          <div class="group-tabs">
-            <div class="tabs">
-              <ul>
-                <li class="active-tab">All Brands</li>
-                <li>Anker</li>
-                <li>Soundcore</li>
-                <li>eufy</li>
-                <li>AnkerWork</li>
-                <li>Nebula</li>
-                <li>AnkerMake</li>
-              </ul>
-            </div>
-          </div>
-        </section>
+      <section class="body-content-collapse">
+        <div class="  Collapse-box   ">
+          <span>Lorem ipsum dolor sit amet consectetur adipisicing.</span>
+          <span class="down-arrow "><img src="./asste/down-arrow.png" id="arrowBtn" /></span>
 
-        <section class="body-content-collapse"> 
-           <div class="  Collapse-box   ">
-            <span>Lorem ipsum dolor sit amet consectetur adipisicing.</span>
-            <span class="down-arrow "><img  src="./asste/down-arrow.png" /></span>
-           </div>
-           <div class=" Collapse-box ">
-            <span>Lorem ipsum dolor sit amet consectetur adipisicing.</span>
-            <span class="down-arrow "><img  src="./asste/down-arrow.png" /></span>
-           </div>
-        </section>
-      </body>
+          <span id="collapsetitle">
+            <p class="broder-top">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, deleniti.
+              <br />Lorem ipsum dolor sit amet consectetur.
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, deleniti.
+              <br />Lorem ipsum dolor sit amet consectetur.
+            </p>
+          </span>
 
-      
-  
+         
+        </div>
+
+       
+      </section>
+    </body>
+
+
+
 </html>
+
+<script>
+  let arrowBtn = document.getElementById("arrowBtn")
+  let collapsetitle = document.getElementById('collapsetitle')
+
+  arrowBtn.addEventListener("click",
+    function toggle() {
+       
+      console.log('inside funtion')
+
+      if (collapsetitle.style.display === 'none') {
+        collapsetitle.style.display = 'block'
+      }
+      else {
+        collapsetitle.style.display = 'none'
+      }
+
+    }
+  )
+
+
+
+</script>

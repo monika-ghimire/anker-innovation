@@ -1,7 +1,17 @@
 .header-content-wrapper{
+  
+  
+}
+
+.header-conter-titel ul{
+    display: flex;
     background: #F2F5F9;
     text-align: center;
-    overflow: hidden;
+    gap: 15%;
+}
+.heading-faqs
+{
+    width: 60%;
 }
 .heading{
   
@@ -16,11 +26,14 @@
     justify-content: center;
     padding-top: 5%;
 }
-.active-tab{
+.tabs ul li:hover{
     color: #4D74B1;
     background:#F2F5F9;
     padding: 4px 8px;
+    transition: 0.1s;
+    
 }
+
 
 .body-content-collapse{
     margin-top: 4%;
@@ -30,13 +43,9 @@
      padding:15px ; 
     width:70%;
     margin-left:18%;
-    margin-top: 2%;
-  text-align: center;
-  justify-content: center;
-   
-
-    
+    margin-top: 2%;   
 }  
+
 
 .down-arrow img{
     width:20px;
@@ -44,3 +53,13 @@
    
     
 } 
+#collapsetitle{
+    display: none;
+  
+}
+.broder-top{
+    border-top: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+
+}
